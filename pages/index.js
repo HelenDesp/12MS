@@ -1,8 +1,12 @@
+import Layout from "../components/Layout";
+
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 text-gray-800">
-      <h1 className="text-4xl font-bold mb-4 text-blue-600">Tailwind is Working 🎉</h1>
-      <p className="text-lg">If you see this with styling, Tailwind works.</p>
-    </div>
+    <Layout>
+      <div className="p-8 text-center">
+        <h1 className="text-3xl font-bold text-green-500">Layout Loaded ?</h1>
+        <p className="text-gray-600 mt-2">If you see this, Layout is rendering children.</p>
+      </div>
+    </Layout>
   );
 }
