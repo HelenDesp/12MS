@@ -1,25 +1,8 @@
-import React from "react";
-import Layout from "../components/Layout";
-import ConnectWallet from "../components/ConnectWallet";
-import WalletCard from "../components/WalletCard";
-import WalletInfoCard from "../components/WalletInfoCard";
-import TokenBalances from "../components/TokenBalances";
-import TokenTransfer from "../components/TokenTransfer";
-import Dashboard from "../components/Dashboard";
-
-const Home = () => {
+export default function Home() {
   return (
-    <Layout>
-      <div className="p-4 space-y-6">
-        <ConnectWallet />
-        <WalletCard />
-        <WalletInfoCard />
-        <TokenBalances />
-        <TokenTransfer />
-        <Dashboard />
-      </div>
-    </Layout>
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 text-gray-800">
+      <h1 className="text-4xl font-bold mb-4 text-blue-600">Tailwind is Working 🎉</h1>
+      <p className="text-lg">If you see this with styling, Tailwind works.</p>
+    </div>
   );
-};
-
-export default Home;
+}
