@@ -1,7 +1,11 @@
-import React from "react";
+import { ConnectButton } from "@rainbow-me/rainbowkit";
 
 const ConnectWallet = () => {
-  return <div>ConnectWallet</div>;
+  return (
+    <div className="flex justify-center">
+      <ConnectButton />
+    </div>
+  );
 };
 
 export default ConnectWallet;
