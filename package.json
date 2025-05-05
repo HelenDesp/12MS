@@ -5,27 +5,15 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "clear": "rm -rf node_modules package-lock.json .next"
+    "start": "next start"
   },
   "dependencies": {
-    "@reown/appkit": "^1.7.0",
-    "@reown/appkit-adapter-wagmi": "^1.7.0",
-    "@tanstack/react-query": "^5.69.0",
-    "autoprefixer": "^10.4.21",
-    "ethers": "^6.13.5",
-    "next": "15.2.4",
-    "postcss": "^8.5.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "viem": "^2.23.14",
-    "wagmi": "^2.14.15"
-  },
-  "devDependencies": {
-    "@tailwindcss/forms": "^0.5.9",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.1"
+    "next": "^15.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "wagmi": "^2.15.2",
+    "viem": "^1.24.0",
+    "@rainbow-me/rainbowkit": "^1.0.0",
+    "@tanstack/react-query": "^5.0.0"
   }
 }
